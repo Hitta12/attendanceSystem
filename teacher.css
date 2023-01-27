@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.in {
+    position: relative;
+    width: 250px;
+}
+
+.in input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+}
+
+.in span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 100px 250px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+}
